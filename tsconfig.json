@@ -1,0 +1,17 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "outDir": "./dist",
+    "declaration": false,
+    "moduleResolution": "node",
+    "target": "es5",
+    "lib": [
+      "es2017",
+      "dom"
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "*": ["./src/*"]
+    }
+  }
+}
